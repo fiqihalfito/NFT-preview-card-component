@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [unavailable](https://your-live-site-url.com)
+- Live Site URL: [here](https://fiqihalfito.github.io/NFT-preview-card-component/)
 
 ## My process
 
