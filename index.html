@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container vh-100 d-flex justify-content-center align-items-center">
+    <div class="card rounded-4 p-3">
+      <div class="img-placeholder mb-4">
+        <img src="./images/icon-view.svg" alt="view" class="eye">
+        <div class="image-hover"></div>
+        <img src="./images/image-equilibrium.jpg" alt="nft_pic" class="img-fluid rounded-3 " id="image">
+      </div>
+      <div class="card-body p-0">
+        <h5 class="card-title  fw-600">Equilibrium #3429</h5>
+        <p class="card-text my-3 fs-6">Our Equilibrium collection promotes balance and calm.</p>
+        <div class="d-flex justify-content-between" id="priceandtime">
+          <div class="d-flex align-items-center">
+            <img src="./images/icon-ethereum.svg" alt="ethereum">
+            <span class="price ms-2 fw-600">0.041 ETH</span>
+          </div>
+          <span class="d-flex align-items-center">
+            <img src="./images/icon-clock.svg" alt="time">
+            <span class="time ms-1 ">3 days left</span>
+          </span>
+        </div>
+        <hr />
+        <div class="d-flex align-items-center mb-2">
+          <img src="./images/image-avatar.png" alt="avatar" class="avatar border border-white rounded-circle">
+          <span class="creator ms-3">
+            Creation of <span class="">Jules Wyvern</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/fiqihalfito">Fiqih Alfito</a>.
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
